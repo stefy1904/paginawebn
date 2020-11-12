@@ -137,6 +137,31 @@ font-size: 50px;
 
 
 
+ .listar table {
+
+     margin-top: 500px;
+     margin-bottom: 500px;
+     background-color: "";
+    grid-column: 3/6;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+
+
+ }
+
+.listar h1  {
+  margin-top: 500px;
+  margin-bottom: 500px;
+  background-color: "";
+ grid-column: 3/6;
+ font-size: 150px;
+ color: white;
+ text-align: center;
+
+
+}
+
 
  .contenedor .pie
  {
@@ -161,21 +186,3 @@ font-size: 50px;
    color: black;
    text-align: center;
  }
-
-
-
-
-
-
-.listar table {
-
-    margin-top: 500px;
-    margin-bottom: 500px;
-    background-color: "";
-   grid-column: 2/6;
-   font-size: 100px;
-   color: white;
-   text-align: center;
-
-
-}

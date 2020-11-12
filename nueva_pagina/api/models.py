@@ -7,3 +7,4 @@ class Usuario (models.Model):
     Email = models.CharField(max_length = 100)
     Telefono = models.CharField(max_length = 12)
     Mensaje = models.CharField(max_length = 10000)
+    

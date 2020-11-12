@@ -9,7 +9,7 @@
 
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../static/estilosforo.css">
+    <link rel="stylesheet" href="../static/estiloslistar.css">
     <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
@@ -49,7 +49,24 @@
       </p>
     </div>
 
+      <div class="listar">
+        <h1>datos usuarios</h1>
+        <table class="tablas">
+          <tr class="tablas">
+            <th class="tablas">id </th>
+            <th class="tablas">Usuario </th>
+            <th class="tablas">Mensaje </th>
+          </tr class="tablas">
 
+          {% for i in user %}
+          <tr class="tablas">
+            <td class="tablas">{{i.id}}</td>
+            <td class="tablas">{{i.Email}}</td>
+            <td class="tablas">{{i.Mensaje}}</td>
+          </tr>
+          {% endfor%}
+        </table>
+      </div>
 
 
 

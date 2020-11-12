@@ -1,7 +1,7 @@
 
 from django.contrib import admin
 from django.urls import path
-from nueva_pagina.vista import pagina_proyecto,pagina_spawns,pagina_foro,pagina_rangos,pagina_herramientas,pagina_Formulario
+from nueva_pagina.vista import *
 from api.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -11,6 +11,9 @@ urlpatterns = [
     path('pagina_rangos/',pagina_rangos),
     path('pagina_herramientas/',pagina_herramientas),
     path('pagina_Formulario/',foro),
+    path('listar_usuario/',listar_usuario),
+
+
 
 
 ]
