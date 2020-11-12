@@ -1,0 +1,101 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!DOCTYPE html>
+  <html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../static/estilosforo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <title></title>
+
+  </head>
+
+<body>
+  <div class="contenedor">
+    <header class="cabecera">
+      <nav class="botones">
+        <a href="/pagina_proyecto/">inicio</a>
+        <a href="/pagina_herramientas/">herramientas</a>
+        <a href="/pagina_spawns/">spawns</a>
+        <a href="/pagina_rangos/">rangos</a>
+        <a href="/pagina_foro/">foro</a>
+      </nav>
+    </header>
+    <div class="cont1">
+      <h1>IP servidor : vanticraft.net:2350 </h1>
+      <p>servidor dedicado especialmente al skyblock y survival con diferentes</p>
+      <p>tipos de minions y mecanicas para lograr una experiencia de juego mejor </p>
+    </div>
+    <div class="cont2">
+      <img src="../static/mine.png" style="width:300px;height:300px;">
+    </div>
+    <div class="bienvenido">
+      <h1>BIENVENIDO </h1>
+      <p>¡Descuento del 80%!
+        vanticraft es una Network de Minecraft NO PREMIUM. Contamos con varios modos de juego para que siempre te diviertas. Aquí puedes comprar rangos y muchos otros artículos para mejorar tu experiencia dentro del juego.
+        <br>
+        <br>
+        Los pagos son procesados por dos pasarelas de pago muy seguras conocidas internacionalmente: Paypal | Paygol
+      </p>
+    </div>
+
+
+
+
+
+
+
+      <div class="foro">
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="well well-sm">
+                    <form action="" method="post" style="border-style:solid;border-width:medium;">
+                        {% csrf_token %}
+                        <table>
+                          {{form.as_table}}
+                        </table>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+                  {{mensaje}}
+                  </div>
+              </div>
+          </div>
+      </div>
+
+<br><br><br><br>
+<br><br><br><br>
+
+
+
+
+
+
+
+
+
+    <footer class="pie">
+      <p>Todos los Derechos Reservados 2020 ©</p>
+      <p>contactanos al correo de : vicentejesuh@hotmail.com </p>
+      <br>
+      <br>
+      <br>
+      <h1>gracias por preferirnos!</h1>
+    </footer>
+    <script>
+      function validar() {
+        alert("enviado correctamente")
+      }
+    </script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</body>
+
+</html>

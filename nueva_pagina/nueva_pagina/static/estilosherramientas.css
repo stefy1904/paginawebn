@@ -1,0 +1,213 @@
+body
+{
+  background-color: #5edc6b;
+ background-image: url("fondo.gif");
+ background-repeat: no-repeat;
+ background-size: cover;
+ max-width: 100%;
+ max-height: 100%;
+ height: auto;
+
+
+
+}
+
+
+
+.contenedor
+{
+width: 100%
+
+;
+margin: 100px auto;
+display: grid;
+grid-template-columns: repeat(6,1fr);
+}
+
+
+
+
+.contenedor .cabecera
+{
+content: "";
+background-color: #dark ;
+color:#fff;
+height: 100%;
+width: 100%;
+text-align: center;
+padding: 110px;
+border-width: medium;
+border-style: solid;
+border-color: black;
+grid-column: 1/7;
+
+}
+
+
+.contenedor .cabecera a
+{
+ color: white;
+ text-decoration: none;
+ text-align: right;
+ font-size: 100px;
+ margin: 30px;
+
+}
+.contenedor .cont1
+{
+  background-color: # ;
+  width: auto;
+  height: auto;
+  text-align: center;
+  border-width: medium;
+  border-style: solid;
+  border-color: black;
+  grid-column: 1/5;
+
+}
+
+.contenedor .cont1 h1
+{
+color: white;
+font-size: 70px;
+
+}
+
+.contenedor .cont1 p
+{
+color: white;
+font-size: 50px;
+
+}
+
+.contenedor .cont2
+{
+  background-color:  ;
+  width: auto;
+  height: 300
+  grid-column: 5/7;
+  image-orientation: center;
+  padding-left: 230px;
+}
+.contenedor .bienvenido
+{
+  background-image: url("minee.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+max-width: 100%;
+max-height: 100%;
+  font-size: 30px;
+  height: 800px;
+  text-align: center;
+  padding: 110px;
+  border-width: medium;
+  border-style: solid;
+  border-color: black;
+  grid-column: 1/7;
+
+}
+
+.contenedor .bienvenido h1
+
+{
+color:white;
+text-align: center;
+font-size: 60px;
+
+
+}
+
+.contenedor .bienvenido p
+{
+color: white;
+font-size: 50px;
+}
+
+
+
+
+.contenedor .picos
+{
+  background-color: ;
+  margin-top: 150px;
+  width: 1000px;
+  height: 600;
+  grid-column: 3/5;
+
+
+
+
+}
+
+.contenedor p
+{
+  font-size: 30px;
+
+
+}
+
+.carruselpicos{
+
+  grid-column: 1/5;
+
+}
+
+
+.contenedor .espadas
+{    background-color: ;
+  margin-top: 150px;
+  width: 1000px;
+  height: 600;
+  grid-column: 3/5;
+}
+
+.espadas h1{
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contenedor .pie
+{
+  background-image: url("pie.gif");
+  max-width: 100%;
+  margin-top: 150px;
+
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: 1/7;
+
+
+}
+.pie p{
+  font-size: 100px;
+  color: black;
+
+
+}
+.pie h1
+{ font-size: 150px;
+  color: black;
+  text-align: center;
+}
